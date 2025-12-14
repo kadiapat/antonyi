@@ -7,5 +7,5 @@ markdown:
   options: {}
 collections_config:
   boost:
-    path: boost
+    path: /
     icon: bolt
