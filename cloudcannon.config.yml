@@ -4,8 +4,9 @@ paths:
   static: ''
 collections_config:
   boost:
-    path: /
-    icon: bolt
+    path: boost
+    icon: camera
+    url: /[slug]
     disable_url: false
     disable_add: false
     disable_add_folder: false
