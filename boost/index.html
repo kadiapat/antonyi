@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+ <title>Insurance Quotes | [Insurance Agency]</title>
+
+<!--SEO Meta Tags-->
+<meta name="keywords" content="" />
+<meta name="description" content="">
+<meta name="author" content="EZLynx">
+
+<link rel="canonical" href="https://www.insuranceagencyurl.com/" />
+<link rel="shortcut icon" href="img/favicon.ico" type="image/ico" />
+
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+<link href="https://agencywebsites.ezlynx.com/bootstrap3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<!--Main CSS-->
+<link href="css/master.css" rel="stylesheet" type="text/css">
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
+<link href="https://agencywebsites.ezlynx.com/fonts/font-awesome-5/css/all.css" rel="stylesheet">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=TRACKINGID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'TRACKINGID');
+</script>
+
+
+</head>
+<body>
+<div class="wrapper">
+<!-- Top bar -->
+<header>
+<div class="container white-bg">
+	<div class="row">
+		<div class="col-md-6 col-sm-6 col-xs-12 top-left">
+			<a href="index.html"><img src="img/agency-name.png" class="editable" id="main-logo"></a>
+		</div>
+		<div class="col-md-6 col-sm-6 col-xs-12 top-right">
+			<div class="top_info_line">
+			<ul class="top_bar_nav">
+				<li><i class="fa fa-phone" aria-hidden="true"></i><span class="editable phone-automate" id="contact_phn_num">000-000-0000</span></li>
+				<li><i class="fa fa-comments" aria-hidden="true"></i><span class="phone-automate" id="contact_text_num"><a href="sms:222-222-2222" class="sms-txt" onclick="ga('send', 'event', 'Mobile', 'Click to Text');">222-222-2222</a></span></li>
+			</ul>
+			
+		</div>
+		</div>
+	</div>
+	
+	<div class="row nav-bg">
+			<nav class="navbar navbar-default">
+			<div class="navbar-header nav-main">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-label="description">  
+					 <span class="arrow-top"></span>
+					 <span class="arrow-second"></span>
+					 <span class="arrow-third"></span>
+					 <span class="arrow-fourth"></span>
+					 <span class="visuallyhidden">Navigation</span>
+					 </button>
+			</div>
+		     <div class="nav-top">
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					 <ul class="nav navbar-nav">
+					 	<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about-us.html">About Us</a></li>
+						<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Insurance Services<b class="caret"></b></a>
+						<ul class="dropdown-menu" role="menu">
+							<li role="menuitem"><a href="auto-insurance.html">Auto Insurance</a></li>
+							<li role="menuitem"><a href="home-insurance.html">Home Insurance</a></li>
+							<li role="menuitem"><a href="commercial-insurance.html">Commercial Insurance</a></li>
+							<li role="menuitem"><a href="life-insurance.html">Life Insurance</a></li>
+							<li role="menuitem"><a href="other-insurance.html">Other Insurance</a></li>
+						</ul>
+						</li>
+						<li><a href="customer-service.html">Customer Service</a></li>
+						<li><a href="compare-quotes.html">Compare Quotes</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+				    </ul>
+				</div>
+            </div>
+          </nav>
+	</div>
+</div>	
+
+</header>
+
+<div class="container">
+	<div class="row banner-section">
+		<div class="col-md-8 col-sm-12 col-xs-12 banner_img">
+		  <div class="row">
+			<img src="img/featured-auto-insurance.jpg" class="banner editable" id="featured-banner">
+		  </div>	
+		</div>
+		<div class="col-md-4 col-sm-12 col-xs-12 quote_section">
+			<div class="TitleStyle6">Insurance Agents · [Insurance Agency]</div>
+			<div class="quote_box">
+				<div class="TitleStyle6 editable" id="qte_heading">Get a quick quote</div>
+				<form id="EZLynxConsumerQuoting" method="post" onsubmit="GetQuotes();return false;" class="center">
+					<label for="Type" class="quote-labels">TYPE</label>
+						<select id="Type" name="Type">
+							<option value="Auto" selected="selected">Auto</option>
+							<option value="Home">Home</option>
+							<option value="Both">Both</option>
+						</select>
+			
+					<label for="ZipCode" class="quote-labels">LOCATION</label>
+						<input id="ZipCode" class="input-medium zip" type="text" maxlength="5" size="9" onkeypress="return numbersonly(event, false)" name="Zip">
+						<button class="btn btn-custom" type="submit" value="GO" onclick="GetQuotes();return false;">GO</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<div class="container">
+		<div class="row main_content_area">
+			<div class="col-md-12 main_conent editable" id="content-section">
+				<div class="TitleStyle1">Compare  Auto Insurance and Home Insurance Quotes Online</div>
+				<p>Saving money is a vital concern for nearly everyone in these difficult times. Because of this, it is important that you find the best possible rate for your auto and homeowners insurance policy. Luckily, it is much easier to find a great rate for insurance now than ever before.</p>
+				<p>In the past, you were pretty much stuck accepting whatever type of insurance your agent could find for you. Then, around ten years ago, nearly every insurance company started offering their product online. Soon after, people started feeling as though they were insurance experts and handled their policies online themselves. This wasn't a bad thing&mdash;in many cases. However, there are downfalls to working directly with the insurance companies.</p>
+				<p>In many cases, insurance customers do not understand what type of coverage they need. They take the lowest possible rate, without looking into the repercussions that could be caused. This is fine and good&mdash;until the time comes that they need to get something back from the insurance company.</p>
+				<p>Because of this, working with an independent agency is actually still a superior way to obtain insurance. The agent can help you get the coverage you need at a price you can afford. Additionally, there are many agencies now that offer features that make it even easier. For instance, in some cases you can compare insurance quotes online.</p>
+				<p>Unlike trying to compare by visiting each site yourself, using one of these tools means that you are comparing apples to apples. Therefore, not only are you paying as little as possible, you are still getting the type of coverage you need. Spend some time researching the options, and then choose an independent agency that will make things easy for you and save you money too.</p>
+			</div>
+			
+		</div>
+	</div>
+
+
+<footer>
+	<div class="container footer_bg">
+		<div class="row footer_content">
+			<div class="col-md-12 col-sm-12">
+				<ul class="footer_nav">
+					<li class="mgn-lft"><a class="active" href="index.html">Home</a></li>
+					<li><a href="about-us.html">About Us</a></li>
+					<li class="dropdown dropup"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Insurance Services<b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+										<li role="menuitem"><a href="auto-insurance.html">Auto Insurance</a></li>
+										<li role="menuitem"><a href="home-insurance.html">Home Insurance</a></li>
+										<li role="menuitem"><a href="commercial-insurance.html">Commercial Insurance</a></li>
+										<li role="menuitem"><a href="life-insurance.html">Life Insurance</a></li>
+										<li role="menuitem"><a href="other-insurance.html">Other Insurance</a></li>
+							</ul>
+					</li>
+					<li><a href="customer-service.html">Customer Service</a></li>
+					<li><a href="compare-quotes.html">Compare Quotes</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
+				</ul>
+			</div>
+			
+			<div class="col-md-12 col-sm-12 copyright">
+				<p class="editable" id="contact-info">
+				<span>Insurance Agency</span> &bull; <a href="https://goo.gl/maps/zXYDcw65XjXXSSnH6" target="_blank" aria-label="(opens in a new tab)" rel="nofollow">1234 Main Street, Townsville, TL 98765</a>
+				 &bull; <span class="phone-automate">Phone: 000-000-0000</span>
+				 &bull; <span class="phone-automate uneditable">Text: <a href="sms:222-222-2222" class="sms-txt" onclick="ga('send', 'event', 'Mobile', 'Click to Text');">222-222-2222</a></span>
+				 &bull; <span class="fax-automate">Fax: 111-111-1111</span>
+				 &bull; <a href="mailto:info@insuranceagency.com">info@insuranceagency.com</a></p>
+				 
+				<p><span><a href="index.html">[Insurance Agency]</a> |</span> <span>Website Development by  <a href="https://www.ezlynx.com/" target="_blank" aria-label="(opens in a new tab)" rel="nofollow">EZLynx</a><sup>&reg;</sup></span> &bull; <span>Copyright &copy; <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script>.</span> <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+
+
+
+
+<!-- All the required scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://agencywebsites.ezlynx.com/scripts/browser-update.js"></script>
+<script src="https://agencywebsites.ezlynx.com/bootstrap3/js/bootstrap.min.js"></script>
+<script src="https://agencywebsites.ezlynx.com/scripts/quote.js"></script> 
+<script type="text/javascript">      
+	function numbersonly(e, decimal) {
+			var key;
+			var keychar;
+			if (window.event) {key = window.event.keyCode;}
+			else if (e) {key = e.which;}
+			else {return true;}
+			keychar = String.fromCharCode(key);
+			if ((key==null) || (key==0) || (key==8) ||  (key==9) || (key==13) || (key==27) ) {return true;}
+			else if ((("0123456789").indexOf(keychar) > -1)) {return true;}
+			else if (decimal && (keychar == ".")) {return true;}
+			else return false; }
+			$(document).ready(function() {
+       var holder = 'Zip Code';
+       $('.zip').blur(function(){
+        if ($(this).val().length == 0)
+          $(this).val(holder).addClass('holder');
+       }).focus(function(){
+        if ($(this).val() == holder)
+          $(this).val('').removeClass('holder');
+       }).val(holder).addClass('holder');
+      });
+</script>
+</body>
+</html>

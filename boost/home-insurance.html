@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Home Insurance | [Insurance Agency]</title>
+
+<!--SEO Meta Tags-->
+<meta name="keywords" content="" />
+<meta name="description" content="">
+<meta name="author" content="EZLynx">
+
+<link rel="canonical" href="https://www.insuranceagencyurl.com/home-insurance.html" />
+<link rel="shortcut icon" href="img/favicon.ico" type="image/ico" />
+
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+<link href="https://agencywebsites.ezlynx.com/bootstrap3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<!--Main CSS-->
+<link href="css/master.css" rel="stylesheet" type="text/css">
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
+<link href="https://agencywebsites.ezlynx.com/fonts/font-awesome-5/css/all.css" rel="stylesheet">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=TRACKINGID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'TRACKINGID');
+</script>
+
+
+</head>
+<body>
+<div class="wrapper">
+<!-- Top bar -->
+<header>
+<div class="container white-bg">
+	<div class="row">
+		<div class="col-md-6 col-sm-6 col-xs-12 top-left">
+			<a href="index.html"><img src="img/agency-name.png" class="editable" id="main-logo"></a>
+		</div>
+		<div class="col-md-6 col-sm-6 col-xs-12 top-right">
+			<div class="top_info_line">
+			<ul class="top_bar_nav">
+				<li><i class="fa fa-phone" aria-hidden="true"></i><span class="editable phone-automate" id="contact_phn_num">000-000-0000</span></li>
+				<li><i class="fa fa-comments" aria-hidden="true"></i><span class="phone-automate" id="contact_text_num"><a href="sms:222-222-2222" class="sms-txt" onclick="ga('send', 'event', 'Mobile', 'Click to Text');">222-222-2222</a></span></li>
+			</ul>
+			
+		</div>
+		</div>
+	</div>
+	
+	<div class="row nav-bg">
+			<nav class="navbar navbar-default">
+			<div class="navbar-header nav-main">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-label="description">  
+					 <span class="arrow-top"></span>
+					 <span class="arrow-second"></span>
+					 <span class="arrow-third"></span>
+					 <span class="arrow-fourth"></span>
+					 <span class="visuallyhidden">Navigation</span>
+					 </button>
+			</div>
+		     <div class="nav-top">
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					 <ul class="nav navbar-nav">
+					 	<li><a href="index.html">Home</a></li>
+						<li><a href="about-us.html">About Us</a></li>
+						<li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Insurance Services<b class="caret"></b></a>
+						<ul class="dropdown-menu" role="menu">
+							<li role="menuitem"><a href="auto-insurance.html">Auto Insurance</a></li>
+							<li role="menuitem" class="active"><a href="home-insurance.html">Home Insurance</a></li>
+							<li role="menuitem"><a href="commercial-insurance.html">Commercial Insurance</a></li>
+							<li role="menuitem"><a href="life-insurance.html">Life Insurance</a></li>
+							<li role="menuitem"><a href="other-insurance.html">Other Insurance</a></li>
+						</ul>
+						</li>
+						<li><a href="customer-service.html">Customer Service</a></li>
+						<li><a href="compare-quotes.html">Compare Quotes</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+				    </ul>
+				</div>
+            </div>
+          </nav>
+	</div>
+</div>	
+
+</header>
+
+<div class="container">
+	<div class="row inner-banner-section">
+		<div class="col-md-5 col-sm-12 col-xs-12">
+		  <div class="row">
+			<img src="img/featured-auto-insurance-agency.jpg" class="auto-insurance-banner pull-left editable" id="banner-img">
+		  </div>	
+		</div>
+		<div class="col-md-7 col-sm-12 col-xs-12">
+			<div id="highlight-box-text" class="editable">"At Insurance Agency we give you the best customer service because we know how important you are. Get a free auto or homeowners quote with us today and see how much you can save."</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<div class="container">
+		<div class="row main_content_area">
+			<div class="col-md-12 inner_main_conent">
+				<div class="quote_box">
+					<div class="TitleStyle6 editable" id="qte_heading">Get a quick quote</div>
+					<form id="EZLynxConsumerQuoting" method="post" onsubmit="GetQuotes();return false;" class="center">
+						<label for="Type" class="quote-labels">TYPE</label>
+						<select id="Type" name="Type">
+							<option value="Auto" selected="selected">Auto</option>
+							<option value="Home">Home</option>
+							<option value="Both">Both</option>
+						</select>
+						<label for="ZipCode" class="quote-labels">LOCATION</label>
+						<input id="ZipCode" class="input-medium zip" type="text" maxlength="5" size="9" onkeypress="return numbersonly(event, false)" name="Zip">
+						<button class="btn btn-custom" type="submit" value="GO" onclick="GetQuotes();return false;">GO</button>
+					</form>
+				</div>
+			
+			<div class="editable" id="content-section">
+				<div class="TitleStyle1">The Facts About  Home Insurance</div>
+        <p>When people shop for home insurance, they are actually seeking not just one type of coverage but possibly several different varieties. Homeowners insurance, renters insurance, and condo insurance are all typically included within the category of home insurance. Whether you own the property that you live on or whether you are renting it short term, you need to have insurance coverage to guard against disasters and losses.</p>
+        <div class="TitleStyle2">Homeowners, Condo, and Renters Policy Types: The Differences</div>
+        <p>A homeowners policy is for people who own their own home. This may be either a house or a condominium: Essentially, if you are making payments on the home with ownership as the end goal you will need homeowners insurance. This type of policy will cover both the outside of the home and all the contents of your home. It will cover the majority of natural disasters (certain disasters like earthquakes may be excluded but you may add extra coverage for that specific purpose) and will allow you to replace or rebuild damaged property. If your home is broken into by a thief and items are stolen your insurance will help replace stolen items and pay for any damage in terms of vandalism that the thief did.</p>
+        <p>With a renter's policy, the coverage includes the inner contents of the home, apartment, or room that you are renting. This is coverage for the break-ins, the natural disasters, fires, and other circumstances that are beyond your control. Even though your landlord will have a homeowners policy on the place you are living, it does not cover your own personal items as a renter, which is why renters insurance is essential.</p>
+        <p>You may be very surprised to see the range of prices you'll get in home insurance quotes. You can sometimes save hundreds of dollars, or even more, simply by choosing one company over another. However, it is important that you get quotes only from reliable top carriers. Your local independent agent is the best resource for this since they can accumulate multiple quotes from the top carriers for you online. Your independent agency will give you the power to compare all the best policy options conveniently at home!</p>
+      </div>
+      </div>
+			
+		</div>
+	</div>
+
+
+<footer>
+	<div class="container footer_bg">
+		<div class="row footer_content">
+			<div class="col-md-12 col-sm-12">
+				<ul class="footer_nav">
+					<li class="mgn-lft"><a href="index.html">Home</a></li>
+					<li><a href="about-us.html">About Us</a></li>
+					<li class="dropdown dropup"> <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Insurance Services<b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+										<li role="menuitem"><a href="auto-insurance.html">Auto Insurance</a></li>
+										<li role="menuitem"><a class="active" href="home-insurance.html">Home Insurance</a></li>
+										<li role="menuitem"><a href="commercial-insurance.html">Commercial Insurance</a></li>
+										<li role="menuitem"><a href="life-insurance.html">Life Insurance</a></li>
+										<li role="menuitem"><a href="other-insurance.html">Other Insurance</a></li>
+							</ul>
+					</li>
+					<li><a href="customer-service.html">Customer Service</a></li>
+					<li><a href="compare-quotes.html">Compare Quotes</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
+				</ul>
+			</div>
+			
+			<div class="col-md-12 col-sm-12 copyright">
+				<p class="editable" id="contact-info">
+				<span>Insurance Agency</span> &bull; <a href="https://goo.gl/maps/zXYDcw65XjXXSSnH6" target="_blank" aria-label="(opens in a new tab)" rel="nofollow">1234 Main Street, Townsville, TL 98765</a>
+				 &bull; <span class="phone-automate">Phone: 000-000-0000</span>
+				 &bull; <span class="phone-automate uneditable">Text: <a href="sms:222-222-2222" class="sms-txt" onclick="ga('send', 'event', 'Mobile', 'Click to Text');">222-222-2222</a></span>
+				 &bull; <span class="fax-automate">Fax: 111-111-1111</span>
+				 &bull; <a href="mailto:info@insuranceagency.com">info@insuranceagency.com</a></p>
+				 
+				<p><span><a href="index.html">[Insurance Agency]</a> |</span> <span>Website Development by  <a href="https://www.ezlynx.com/" target="_blank" aria-label="(opens in a new tab)" rel="nofollow">EZLynx</a><sup>&reg;</sup></span> &bull; <span>Copyright &copy; <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script>.</span> <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+
+
+<!-- All the required scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://agencywebsites.ezlynx.com/scripts/browser-update.js"></script>
+<script src="https://agencywebsites.ezlynx.com/bootstrap3/js/bootstrap.min.js"></script>
+<script src="https://agencywebsites.ezlynx.com/scripts/quote.js"></script> 
+<script type="text/javascript">      
+	function numbersonly(e, decimal) {
+		var key;
+		var keychar;
+		if (window.event) {key = window.event.keyCode;}
+		else if (e) {key = e.which;}
+		else {return true;}
+		keychar = String.fromCharCode(key);
+		if ((key==null) || (key==0) || (key==8) || (key==9) || (key==13) || (key==27) ) {return true;}
+		else if ((("0123456789").indexOf(keychar) > -1)) {return true;}
+		else if (decimal && (keychar == ".")) {return true;}
+		else return false; 
+	}
+</script>
+<script type="text/javascript">   
+$(document).ready(function() {
+       var holder = 'Zip Code';
+       $('.zip').blur(function(){
+        if ($(this).val().length == 0)
+          $(this).val(holder).addClass('holder');
+       }).focus(function(){
+        if ($(this).val() == holder)
+          $(this).val('').removeClass('holder');
+       }).val(holder).addClass('holder');
+      });
+</script>
+</body>
+</html>
