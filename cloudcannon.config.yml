@@ -6,3 +6,7 @@ markdown:
   engine: commonmark
   options: {}
 source: /boost/
+collections_config:
+  pages:
+    path: ''
+    icon: wysiwyg
